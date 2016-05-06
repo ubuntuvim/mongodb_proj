@@ -1,0 +1,21 @@
+{
+  "name": "MongoDB Example",
+  "version": "0.1.0",
+  "description": "The mongodb learning example!",
+  "main": "app.js",
+  "dependencies": {
+    "express": "~3.4.8",
+  	"express-session": "~1.9.3",
+    "body-parser": "~1.10.0",
+  	"multer": "~0.1.8",
+  	"path": "~0.4.9",
+  	"mongoose": "~3.8.1",
+    "ejs": "~0.8.5",
+    "compression": "1.6.1",
+    "connect-mongo": "1.1.0",
+    "cookie-parser": "1.4.1",
+    "morgan": "1.7.0",
+    "serve-favicon": "2.3.0",
+    "socket.io": "1.4.6"
+  }
+}
