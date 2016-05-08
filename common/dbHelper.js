@@ -20,7 +20,3 @@ module.exports = {
 var _getModel = function(type) {
 	return mongoose.model(type);
 }
-
-
-// 定义一个全局到变量dbHelper
-global.dbHelper = require('./common/dbHelper');

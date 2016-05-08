@@ -84,3 +84,21 @@ MongoDB —— 是一个对象数据库，没有表、行等概念，也没有�
 页面草图如下所示：
 
 ![商品页面](http://hubwiz.com/course/549a704f88dba0136c371703/img/Cart.jpg)
+
+
+## 项目运行
+
+### 安装运行环境
+
+通过[NPM](https://npmjs.org)命令安装项目所需到插件。执行命令`npm install`。
+
+安装数据库[MongoDB](http://mongodb.org)，安装教材请参考官网文档。
+
+### 运行
+
+1. 启动项目，使用命令：
+```
+cd mongodb_proj
+supervisor app.js
+```
+2. 访问[http://localhost:8088](http://localhost:8088)

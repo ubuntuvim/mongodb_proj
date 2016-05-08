@@ -8,8 +8,7 @@ module.exports = function(app) {  //app是express对象
   app.post('/register', function(req, res) {
     var User = global.dbHelper.getModel('user'),
         uname = req.body.uname;
-
-    User.fundOne({name: uname}, function(error, doc) {
+    User.findOne({name: uname}, function(error, doc) {
       if (doc) {
         req.session.error = "用户名已经存在！";
         res.send(500);
